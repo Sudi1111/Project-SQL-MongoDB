@@ -1,0 +1,11 @@
+Field,Type,Null,Key,Default,Extra
+loan_id,int,NO,PRI,NULL,
+customer_id,int,YES,MUL,NULL,
+loan_amount,int,YES,,NULL,
+loan_date,text,YES,,NULL,
+loan_status,text,YES,,NULL,
+repayment_history,int,YES,,NULL,
+interest_rate,double,YES,,NULL,
+loan_purpose,text,YES,,NULL,
+collateral,text,YES,,NULL,
+default_risk,text,YES,,NULL,

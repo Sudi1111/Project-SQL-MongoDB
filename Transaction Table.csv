@@ -1,0 +1,10 @@
+Field,Type,Null,Key,Default,Extra
+transaction_id,int,NO,PRI,NULL,
+loan_id,int,YES,MUL,NULL,
+customer_id,int,YES,MUL,NULL,
+transaction_date,text,YES,,NULL,
+transaction_amount,int,YES,,NULL,
+transaction_type,text,YES,,NULL,
+payment_method,text,YES,,NULL,
+status,text,YES,,NULL,
+remarks,text,YES,,NULL,

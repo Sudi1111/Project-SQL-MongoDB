@@ -1,0 +1,13 @@
+Field,Type,Null,Key,Default,Extra
+customer_id,int,NO,PRI,NULL,
+name,text,YES,,NULL,
+age,int,YES,,NULL,
+address,text,YES,,NULL,
+phone,text,YES,,NULL,
+email,text,YES,,NULL,
+income,int,YES,,NULL,
+credit_score,int,YES,,NULL,
+employment_status,text,YES,,NULL,
+risk_category,text,YES,,NULL,
+customer_since,text,YES,,NULL,
+active_loans,int,YES,,NULL,
